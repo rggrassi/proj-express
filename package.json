@@ -1,0 +1,23 @@
+{
+  "name": "proj-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@sinonjs/referee-sinon": "^4.1.0",
+    "chai": "^4.2.0",
+    "jsverify": "^0.8.4",
+    "knuth-shuffle": "^1.0.8",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
+  }
+}
